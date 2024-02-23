@@ -20,9 +20,6 @@ public class Bird extends Game {
 	public void create() {
 		manager = new AssetManager();
 		manager.load("fantasma.png", Texture.class);
-		manager.load("pipe_up.png", Texture.class);
-		manager.load("pipe_down.png", Texture.class);
-		manager.load("coche_amarillo.png", Texture.class);
 		manager.load("obstaculo.png", Texture.class);
 
 		manager.load("background.png", Texture.class);

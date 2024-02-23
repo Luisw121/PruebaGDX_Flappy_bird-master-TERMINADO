@@ -21,7 +21,7 @@ public class MainMenuScreen implements Screen {
         game.batch.setProjectionMatrix(camera.combined);
         game.batch.begin();
         game.batch.draw(game.manager.get("background.png", Texture.class), 0, 0);
-        game.bigFont.draw(game.batch, "Welcome to Puig Bird!!!", 30 , 300);
+        game.bigFont.draw(game.batch, "Welcome to Puig Pacman!!!", 30 , 300);
         game.bigFont.draw(game.batch, "Tap anywhere to begin!",
                 20, 180);
         game.batch.end();
